@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "DoSomething";
+}
+
+<h2>DoSomething</h2>
+
+
+<script>
+    $(document).ready(function () {
+        $.getScript("/Home/dosomething");
+    });
+</script>
+
+<button>Use Ajax to get and then run a JavaScript</button>
